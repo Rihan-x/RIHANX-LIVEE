@@ -6,22 +6,18 @@ font-family: Arial;
 text-align: center;
 }
 
-header {
-padding: 20px;
-}
-
-.box {
-background: rgba(20,20,20,0.8);
-border: 1px solid red;
-box-shadow: 0 0 15px red;
-border-radius: 15px;
-margin: 20px;
-padding: 20px;
-}
-
-a {
+.logo {
 color: red;
-text-decoration: none;
+text-shadow: 0 0 20px red;
+}
+
+.card {
+background: rgba(20,20,20,0.9);
+border: 1px solid red;
+box-shadow: 0 0 20px red;
+border-radius: 15px;
+padding: 20px;
+margin: 20px;
 }
 
 button {
@@ -30,4 +26,5 @@ color: white;
 border: none;
 padding: 10px 20px;
 border-radius: 8px;
+cursor: pointer;
 }
