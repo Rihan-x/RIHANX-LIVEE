@@ -2,31 +2,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>RIHAN X LIVEE</title>
+<title>RIHAN X LIVEE - Live Tournament</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header>
-<h1>🔥 RIHAN X LIVEE 🔥</h1>
-<p>Free Fire Tournament Platform</p>
-</header>
+<h1 class="logo">🔥 RIHAN X LIVEE 🔥</h1>
 
-<div class="box">
-<h2>YouTube Live Counter</h2>
-<p>Subscribers: <span id="subscribers">Loading...</span></p>
-<p>Views: <span id="views">Loading...</span></p>
+<div class="card">
+<h2>Live Tournament Status</h2>
+<p id="liveStatus">Loading...</p>
 </div>
 
-<div class="box">
-<h2>Navigation</h2>
-<a href="tournament.html">Tournament</a><br>
-<a href="tools.html">Tools</a><br>
-<a href="help.html">Help Center</a><br>
-<a href="dashboard.html">Admin Panel</a>
+<div class="card">
+<h2>Register Squad</h2>
+<input type="text" id="squad" placeholder="Squad Name"><br><br>
+<input type="text" id="uid" placeholder="Leader UID"><br><br>
+<button onclick="registerSquad()">Register</button>
+<p id="msg"></p>
 </div>
 
-<script src="js/youtube-api.js"></script>
+<script type="module" src="js/app.js"></script>
 </body>
 </html>
