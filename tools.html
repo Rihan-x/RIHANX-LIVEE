@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tools - RIHAN X LIVEE</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>Gaming Tools</h1>
+
+<div class="box">
+<h2>Kill Calculator</h2>
+<input type="number" id="kills" placeholder="Enter Kills">
+<button onclick="calculate()">Calculate Points</button>
+<p id="result"></p>
+</div>
+
+<script>
+function calculate(){
+let k = document.getElementById("kills").value;
+document.getElementById("result").innerText = "Points: " + (k * 10);
+}
+</script>
+
+</body>
+</html>
